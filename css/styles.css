@@ -3,6 +3,10 @@ body {
   background-color: #ffffff;
 }
 
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
 .logo-text {
   color: #2196f3;
 }
@@ -10,26 +14,27 @@ body {
 .header-logo {
   color: #212121;
 }
-
-.site-nav .link {
-  color: #212121;
+.list {
+  list-style: none;
 }
-.site-nav .link:hover,
-.site-nav .link:focus {
-  color: #2196f3;
-}
-
-.contact-list .link {
+.nav-list .link {
   color: #212121;
   text-decoration: none;
 }
-.contact-list .link:hover,
-.contact-list .link:focus {
+.nav-list .link:hover,
+.nav-list .link:focus {
   color: #2196f3;
 }
-
-ul {
-  list-style: none;
+.contacts-list {
+  list-style-type: none;
+}
+.contacts-list .link {
+  color: #212121;
+  text-decoration: none;
+}
+.contacts-list .link:hover,
+.contacts-list .link:focus {
+  color: #2196f3;
 }
 
 .footer-logo {
