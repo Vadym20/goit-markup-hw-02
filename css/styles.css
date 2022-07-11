@@ -3,9 +3,7 @@ body {
   background-color: #ffffff;
 }
 
-body {
-  font-family: 'Open Sans', sans-serif;
-}
+font-family: 'Open Sans', sans-serif;
 
 .logo-text {
   color: #2196f3;
@@ -37,8 +35,39 @@ body {
   color: #2196f3;
 }
 
+.footer {
+  background-color: #2f303a;
+  position: absolute;
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+}
 .footer-logo {
-  color: #ffffff;
+  color: #2196f3;
+  text-decoration: none;
+  font-family: 'Raleway';
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+}
+
+.link {
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+}
+.address-list .link {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+.address-list .link:hover,
+.address-list .link:focus {
+  color: #2196f3;
 }
 
 /* цвет логотиппа
@@ -49,4 +78,4 @@ body {
 /* цвет белый  
 #FFFFFF*/
 
-/**/
+/**/ ;
