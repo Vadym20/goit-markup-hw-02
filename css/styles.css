@@ -1,5 +1,18 @@
 body {
   color: #212121;
+  background-color: #ffffff;
+}
+
+.logo-text {
+  color: #2196f3;
+}
+
+.header-logo {
+  color: #212121;
+}
+
+.nav-link {
+  color: #2196f3;
 }
 /* цвет логотиппа
 текста синий #2196F3; 
@@ -10,3 +23,7 @@ body {
 #FFFFFF*/
 
 /**/
+
+ul {
+  list-style: none;
+}
