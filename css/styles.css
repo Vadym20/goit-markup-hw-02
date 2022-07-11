@@ -11,9 +11,31 @@ body {
   color: #212121;
 }
 
-.nav-link {
+.site-nav .link {
+  color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
   color: #2196f3;
 }
+
+.contact-list .link {
+  color: #212121;
+  text-decoration: none;
+}
+.contact-list .link:hover,
+.contact-list .link:focus {
+  color: #2196f3;
+}
+
+ul {
+  list-style: none;
+}
+
+.footer-logo {
+  color: #ffffff;
+}
+
 /* цвет логотиппа
 текста синий #2196F3; 
 черный #000000; */
@@ -23,7 +45,3 @@ body {
 #FFFFFF*/
 
 /**/
-
-ul {
-  list-style: none;
-}
