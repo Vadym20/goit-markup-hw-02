@@ -15,10 +15,8 @@
   <body>
     <!-- Шапка сайта -->
     <header class="header">
-      <nav>
-        <a class="header-logo" href="./index.html" lang="en"
-          ><span class="logo-text">Web</span>Studio</a
-        >
+      <nav class="nav">
+        <a lang="en" class="logo" href="./index.html"><span class="logo-text">Web</span>Studio</a>
         <ul class="nav-list list">
           <li class="nav-list-item"><a href="./index.html" class="link curent">Студия</a></li>
           <li class="nav-list-item"><a href="./portfolio.html" class="link">Портфолио</a></li>
@@ -43,33 +41,37 @@
           Эффективные решения<br />
           для вашего бизнеса
         </h1>
-        <button type="button">Заказать услугу</button>
+        <button class="button">Заказать услугу</button>
       </section>
 
       <!--Особенности-->
       <section class="features">
-        <h2 class="visually hidden">Особенности студии</h2>
+        <h2 class="hidden">Особенности студии</h2>
 
         <ul class="feauters-list list">
-          <li class="">
-            <h3 class="">Внимание к деталям</h3>
-            <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+          <li class="feauter-list item">
+            <h3 class="feauter-title">Внимание к деталям</h3>
+            <p class="feauter-after-title">
+              Идейные соображения, а также начало повседневной работы по формированию позиции.
+            </p>
           </li>
-          <li class="">
-            <h3 class="">Пунктуальность</h3>
-            <p>
+          <li class="feauter-list item">
+            <h3 class="feauter-title">Пунктуальность</h3>
+            <p class="feauter-after-title">
               Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
             </p>
           </li>
-          <li class="">
-            <h3 class="">Планирование</h3>
-            <p>
+          <li class="feauter-list item">
+            <h3 class="feauter-title">Планирование</h3>
+            <p class="feauter-after-title">
               Равным образом консультация с широким активом в значительной степени обуславливает.
             </p>
           </li>
-          <li class="">
-            <h3 class="">Современные технологии</h3>
-            <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+          <li class="feauter-list item">
+            <h3 class="feauter-title">Современные технологии</h3>
+            <p class="feauter-after-title">
+              Значимость этих проблем настолько очевидна, что реализация плановых заданий.
+            </p>
           </li>
         </ul>
       </section>
@@ -77,7 +79,7 @@
       <section class="activity">
         <h2 class="studio-title">Чем мы занимаемся</h2>
         <ul class="activity-list list">
-          <li class="">
+          <li>
             <img
               src="./images/about-img-1.jpeg"
               alt="Програмист работает за столом в офисе"
