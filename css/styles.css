@@ -7,12 +7,13 @@ body {
   background-color: #ffffff;
   font-family: 'Open Sans', sans-serif;
 }
+/*-----------------HEADER-------------*/
 .header-logo {
   color: var(--black-color);
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.19;
+  letter-spacing: 0.03em;
   text-decoration: none;
 }
 .blue-logo {
@@ -23,6 +24,11 @@ body {
 }
 .nav-list .link {
   color: var(--title-text-color);
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;  
   letter-spacing: 0.02em;
   text-decoration: none; 
 }
@@ -36,7 +42,11 @@ body {
 .contacts-list .link {
   color: var(--title-text-color);
   text-decoration: none;
-  letter-spacing: 0.02em; 
+  font-family: 'Roboto';
+  font-weight: 500;
+  line-height: 16px;
+  font-size: 14px;
+  letter-spacing: 0.02em;
 }
 .contacts-list .link:hover,
 .contacts-list .link:focus {
@@ -46,11 +56,10 @@ body {
 .hero-title {
   background: #2f303a;
   color: #ffffff;
-  font-family: 'Roboto';
+  font-family: 'Roboto',sans-serif;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
-  text-align: center;
+  line-height: 1.36;
   letter-spacing: 0.06em;
 }
 .button {
@@ -72,17 +81,50 @@ body {
 }
 .feauters-list list {
   width: 1170px;
-
   justify-content: space-between;
+}
+.feauter-title{
+  font-family: 'Roboto',sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em; 
+  color: #212121;
+}
+.feauter-after-title{
+  font-family: 'Roboto',sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
 /*-----------------------ACTIVITY----------------*/
 .activity {
+}
+.activity-title{
+  font-family: 'Roboto',sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: #212121;
+
 }
 
 
 /*------------------------TEAM---------------------*/
 
+.team-title{
+  font-family: 'Roboto',sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: #212121;
 
+}
 
 
 /*-----------------------FOOTER--------------------*/
