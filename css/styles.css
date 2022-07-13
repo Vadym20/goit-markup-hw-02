@@ -48,6 +48,14 @@ body {
 .contacts-list .link:focus {
   color: #2196f3;
 }
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--primary-bgc--);
+  background-color: var(--secondary-bgc);
+}
 .hero-title {
   background: #2f303a;
   color: #ffffff;
