@@ -68,7 +68,7 @@ body {
   line-height: 30px;
   color: #ffff;
   cursor: pointer;
-  position: absolute;
+  position: relative;
 
   width: 200px;
   height: 50px;
@@ -109,7 +109,7 @@ body {
   color: rgba(255, 255, 255, 1);
   text-decoration: none;
 }
-.address-list .link {
+.contact-list .link {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   font-family: 'Roboto';
@@ -118,7 +118,7 @@ body {
   font-size: 14px;
   line-height: 24px;
 }
-.address-list .link:hover,
-.address-list .link:focus {
+.contact-list .link:hover,
+.contact-list .link:focus {
   color: #2196f3;
 }
