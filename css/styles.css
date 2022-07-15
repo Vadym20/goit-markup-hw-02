@@ -1,5 +1,16 @@
-:root var(--black-color);
-var(--title-text-color);
+:root {
+  --primary-text-color: #757575;
+  --secondary-text-color: rgba(255, 255, 255, 0.6);
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-bgc: #ffffff;
+  --secondary-bgc: #2f303a;
+  --tertiary-bgc: #f5f4fa;
+}
+
+
+
+
 
 
 body {
@@ -50,7 +61,7 @@ body {
 .hero-title {
   background: #2f303a;
   color: #ffffff;
-  font-family: 'Roboto',
+  font-family: 'Roboto';
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -83,7 +94,7 @@ body {
   justify-content: space-between;
 }
 .feauter-title{
-  font-family: 'Roboto',
+  font-family: 'Roboto';
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -91,7 +102,7 @@ body {
   color: #212121;
 }
 .feauter-after-title{
-  font-family: 'Roboto',
+  font-family: 'Roboto';
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -99,9 +110,10 @@ body {
 }
 /*-----------------------ACTIVITY----------------*/
 .activity {
+  font-size: large;
 }
 .activity-title{
-  font-family: 'Roboto',
+  font-family: 'Roboto';
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -116,7 +128,7 @@ body {
   background: #F5F4FA;
 }
 .team-title {
-  font-family: 'Roboto',
+  font-family: 'Roboto';
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
