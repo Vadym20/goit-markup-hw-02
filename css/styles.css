@@ -68,7 +68,7 @@ body {
 .header-btn:hover,
 .header-btn:focus {
   background-color: #188CE8;
-  color: ;
+ 
 
 }
  
@@ -126,7 +126,6 @@ body {
 
 .team-item-title{
   font-family: 'Roboto';
-
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
