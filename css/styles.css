@@ -6,13 +6,12 @@
   --title-text-color: #212121;
   --white-text-color: rgba(255, 255, 255, 1);
   --accent-color: #2196f3;
-  
-/*----- Цвет фона, кнопок------*/
+
+  /*----- Цвет фона, кнопок------*/
   --primary-bgc: #ffffff;
   --secondary-bgc: #2f303a;
   --background-team: #f5f4fa;
-  --feauters-bgc: #F5F5F5;
-
+  --feauters-bgc: #f5f5f5;
 }
 
 body {
@@ -22,7 +21,6 @@ body {
 }
 /*-----------------HEADER-------------*/
 .header-logo {
-  
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -41,9 +39,9 @@ body {
 .contacts-list .link {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14;  
+  line-height: 1.14;
   letter-spacing: 0.02em;
-  text-decoration: none; 
+  text-decoration: none;
   color: var(--title-text-color);
 }
 
@@ -56,7 +54,6 @@ body {
 .contacts-list {
   list-style-type: none;
 }
-
 
 /*---------------------------HERO-------------------*/
 .hero {
@@ -79,13 +76,11 @@ body {
   cursor: pointer;
   color: var(--white-text-color);
   background: var(--accent-color);
- 
 }
 .header-btn:hover,
 .header-btn:focus {
-  background-color: #188CE8;
+  background-color: #188ce8;
 }
- 
 
 /*-----------------------FEAUTERS----------------*/
 .feauters {
@@ -96,15 +91,15 @@ body {
   width: 1170px;
   justify-content: space-between;
 }
-.feauter-title{
+.feauter-title {
   font-family: 'Roboto';
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em; 
+  letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
-.feauter-after-title{
+.feauter-after-title {
   font-family: 'Roboto';
   font-size: 14px;
   line-height: 1.71;
@@ -115,16 +110,14 @@ body {
 .activity {
   font-size: large;
 }
-.activity-title{
+.activity-title {
   font-family: 'Roboto';
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
-
 }
-
 
 /*------------------------TEAM---------------------*/
 .team {
@@ -139,7 +132,7 @@ body {
   color: var(--title-text-color);
 }
 
-.team-item-title{
+.team-item-title {
   font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
@@ -156,44 +149,41 @@ body {
 }
 /*-----------------------FOOTER--------------------*/
 .footer {
-  background-color: #2f303a; 
+  background-color: #2f303a;
 }
 
 .logo-text {
-   color: #2196f3;
+  color: #fff;
 }
 .footer-logo {
-  color: #FFFFFF;
-  text-decoration: none;
-  font-family: 'Raleway';
-  letter-spacing: 0.03em;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+  text-decoration: none;
 }
 
-
-
 .link {
-  color:#FFFFFF;
-  text-decoration: none;
   font-family: 'Roboto';
- 
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  font-style: normal;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .contact-list .link {
-  color: rgba(255, 255, 255, 0.6);
-  text-decoration: none;
   font-family: 'Roboto';
- 
- 
   font-size: 14px;
   line-height: 24px;
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
 .contact-list .link:hover,
 .contact-list .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
