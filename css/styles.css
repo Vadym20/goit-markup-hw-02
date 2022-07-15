@@ -54,7 +54,7 @@ body {
   flex-direction: column;
   align-items: center;
   color: var(--primary-bgc--);
-  background-color: var(--secondary-bgc);
+  background-color: var();
 }
 .hero-title {
   background: #2f303a;
