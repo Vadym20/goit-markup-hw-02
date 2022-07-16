@@ -47,11 +47,17 @@ body {
 
 .header-link:hover,
 .header-link:focus,
-.contact-list .link:hover,
-.contact-list .link:focus {
+.contacts-list-link:hover,
+.contacts-list-link:focus {
   color: var(--accent-color);
 }
-.contact-list {
+.contacts-list-link {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
   list-style-type: none;
   color: var(--primary-text-color);
 }
@@ -144,7 +150,7 @@ body {
 .team-item-text {
   font-family: 'Roboto';
   font-size: 16px;
-  line-height: 1.18px;
+  line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
@@ -182,9 +188,12 @@ body {
 
 .contact-list .link {
   font-family: 'Roboto';
-  font-size: 14px;
-  line-height: 24px;
   font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
   color: var(--secondary-text-color);
   text-decoration: none;
 }
