@@ -56,6 +56,10 @@ body {
 .contacts-list-link:focus {
   color: var(--select-color);
 }
+.header-link.current {
+  color: var(--select-color);
+}
+
 .contacts-list-link {
   font-weight: 500;
   font-size: 14px;
@@ -226,7 +230,6 @@ body {
 
 .contact-list .link {
   font-style: normal;
-  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
