@@ -58,6 +58,7 @@ body {
 }
 .header-link.current {
   color: var(--select-color);
+  text-decoration: none;
 }
 
 .contacts-list-link {
