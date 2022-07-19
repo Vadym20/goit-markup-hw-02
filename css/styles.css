@@ -19,7 +19,6 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  font-style: normal;
 }
 
 /*-----------------HEADER-------------*/
@@ -58,8 +57,6 @@ body {
   color: var(--select-color);
 }
 .contacts-list-link {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -73,7 +70,6 @@ body {
   background: var(--secondary-bgc);
 }
 .hero-title {
-  font-family: 'Roboto';
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -123,8 +119,6 @@ body {
   box-sizing: border-box;
 }
 .portfolio-list-title {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -134,8 +128,6 @@ body {
 }
 
 .portfolio-type {
-  font-family: 'Roboto';
-  font-style: normal;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
@@ -145,15 +137,13 @@ body {
 
 /*-----------------------FEAUTERS----------------*/
 .feauters {
-  width: 1170px;
   background: var(--feauters-bgc);
 }
-.feauters-list list {
+.feauters-list {
   width: 1170px;
   justify-content: space-between;
 }
 .feauter-title {
-  font-family: 'Roboto';
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -161,7 +151,6 @@ body {
   color: var(--title-text-color);
 }
 .feauter-after-title {
-  font-family: 'Roboto';
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -172,7 +161,6 @@ body {
   font-size: large;
 }
 .activity-title {
-  font-family: 'Roboto';
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -185,7 +173,6 @@ body {
   background: var(--background-team);
 }
 .team-title {
-  font-family: 'Roboto';
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -194,7 +181,6 @@ body {
 }
 
 .team-item-title {
-  font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -202,7 +188,6 @@ body {
   color: var(--title-text-color);
 }
 .team-item-text {
-  font-family: 'Roboto';
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
@@ -227,7 +212,6 @@ body {
 }
 
 .link {
-  font-family: 'Roboto';
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -241,7 +225,6 @@ body {
 }
 
 .contact-list .link {
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
